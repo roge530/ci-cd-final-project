@@ -43,7 +43,7 @@ spec:
   params:
     - name: args
       description: Arguments to pass to nose
-      type: starting
+      type: string
       default: "-v"
   steps:
     - name: nosetests
